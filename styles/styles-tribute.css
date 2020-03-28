@@ -1,0 +1,27 @@
+*{
+  font-family:optima;
+}
+#title{
+  text-align:center;
+}
+
+#main{
+  padding:0 15%;
+}
+footer{
+  text-align:center;
+}
+#img-div caption{
+  background-color: aquamarine;
+}
+img {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
+}
+div#img-div {
+  text-align: center;
+  color:grey;
+}

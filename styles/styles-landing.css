@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: optima;
+  font-weight: 200;
+}
+
+body {
+  color: rgba(32, 32, 32, 0.856);
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 1.2em;
+  padding-right: 20px;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #0f0b08;
+  width: 100%;
+}
+.logo h2 {
+  display: inline;
+}
+.nav-bar li {
+  display: inline;
+}
+
+#header-img {
+  width: 100%;
+  height: 460px;
+}
+
+.btn {
+  background-color: #f7b733;
+  margin-top: 20px;
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.product button {
+  margin-left: 45%;
+}
+.btn:hover {
+  background-color: #f7a233;
+}
+.hero {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.753);
+}
+.btn-header {
+  display: inline;
+}
+input[type='email'] {
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+}
+
+.icon {
+  text-align: center;
+  padding: 30px 0;
+}
+.desc h2 {
+  margin-bottom: 10px;
+}
+.desc p,
+.text-works {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.works {
+  background-color: #15a892;
+  color: #ffffffe0;
+}
+iframe#video {
+  padding-left: 15px;
+}
+
+.text-works h3 {
+  padding: 20px;
+}
+.products {
+  text-align: center;
+}
+.products h2 {
+  padding: 20px 0;
+  color: #057262;
+}
+.product li {
+  list-style: none;
+}
+
+.footer {
+  background-color: #0f0b08;
+  color: rgba(255, 255, 255, 0.753);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.footer li {
+  display: inline;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.753);
+  display: inline;
+  padding-right: 40px;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav a {
+    text-decoration: none;
+  }
+  #header-img {
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  .skills-up,
+  .skills-down,
+  .products {
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+  }
+  section {
+    padding: 20px;
+  }
+  .grid {
+    padding: 15px;
+    width: 20%;
+  }
+
+  .desc p,
+  .text-works {
+    line-height: 1.6;
+  }
+  .works {
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+  }
+
+  .text-works h3 {
+    font-size: 1.3em;
+  }
+  .products {
+    margin: 50px 0;
+    padding: 3%;
+    padding-top: 20px;
+  }
+}
